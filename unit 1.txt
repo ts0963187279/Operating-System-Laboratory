@@ -1,0 +1,56 @@
+1. 說明主機中的各項硬體如何影響主機效能
+
+	CPU : CPU的時脈 影響 電腦運算的速度
+	記憶體 : 將資料載入後讓CPU讀取
+	顯示卡 : 圖形影像的顯示與運算
+	硬碟 : 硬碟的大小影響 電腦儲存的資料大小
+	主機板 : 其他硬體間互相溝通
+	電源供應器 : 提供硬體電力
+
+2. 說明作業系統的角色, 主要功能, 與硬體及應用程式之間的關係
+
+
+	電腦與使用者溝通的橋梁 , 管理電腦的所有活動以及驅動系統中的所有硬體 ,  應用程式透過作業系統來驅動硬體
+
+3. 說明作業系統與硬體驅動程式之間的關係
+
+	驅動程式 : 讓作業系統可以認識此硬體
+
+4. 說明與 Linux 的誕生與發展有關的作業系統/自由軟體發展歷史,
+尤其是與 Unix 作業系統及 GNU Project 的關係
+	
+	1969以前 Multics : 輸入設備只有讀卡機 輸出只有印表機 無法與作業系統互動 相容分時系統
+	1969 Ken Thompson 的小型 file server system : 所有的程式或系統裝置都是檔案 , 不管建構編輯器還是附屬檔案，所寫的程式只有一個目的，且要有效的完成目標
+	1973 Unix 以高階程式語言撰寫
+	1977 Unix分支 BSD : 增加許多工具軟體與編譯程式
+	1979 System V架構與版權宣告 : 可以支援x86架構的個人電腦系統
+	1984 x86架構的Minix作業系統 : 為了解決版權問題
+	1984 GUN計畫 FSF基金會 : 建立一個自由、開放的Unix作業系統 GUN開發數個重要軟體(Emacs,GUN C,GUN C Library, Bash shell)
+	1988 圖形介面XFree86計畫 : GUI 需求加重
+	1991 芬蘭大學生Linus Torvalds : 寫了一個核心程式 linux
+
+5. 說明 Linux 成功的策略
+	
+	自由 任何人都可以修改	
+
+6. 說明如何查看 Linux Kernel releases
+
+	到 terminal 中輸入 uname -a 即可查看
+
+7. 說明 Linux Distributions 與 Linux Kernel 的關係
+
+	linux 函式庫 + 應用程式 + linux kernel = Linux Distribution
+
+8. 說明有哪些較為熟知的 Linux Distributions, 如何分類與選擇, 思
+考為何本課程採用 SUSE 的 Linux Distribution
+
+	一般使用者 : Ubuntu, Fedora, OpenSUSE, Arch Linux
+	系統管理員 : Debian, Red Hat Enterprise Linux, CentOS
+
+	與企業版使用相同的kernel 免費
+
+9. 說明 Linux 的應用
+	桌上型電腦
+	手持系統
+	嵌入式系統
+	伺服器
